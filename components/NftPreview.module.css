@@ -1,0 +1,15 @@
+.card {
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: auto;
+    }
+}
